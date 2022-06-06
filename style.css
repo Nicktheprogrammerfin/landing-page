@@ -94,17 +94,31 @@ a:hover {
     font-weight: bolder;
     text-align: center;
     padding-top: 16px;
+    color: #1F2937;;
 }
 
 .info-me {
     display: flex;
     justify-content: center;
+    align-items: flex-start;
+    gap: 32px;
 }
 
-.info-me-1, .info-me-2 .info-me-3, .info-me-4 {
+
+
+.info-me-1, .info-me-2, .info-me-3, .info-me-4 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-wrap: wrap;
+    width: 150px;
+    height: 500px;
+    text-align: center;
+    color: #1F2937;;
+}
+
+img {
+    border-radius: 26px;
+    border: 4px solid #1F2937;
 }
