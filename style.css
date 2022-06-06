@@ -1,1 +1,110 @@
-/* testing to upload */
+* {
+    font-family: 'Roboto', sans-serif;
+    /* border: 2px solid red; */
+}
+
+body {
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    margin: 0px;
+    padding: 8px 256px 16px 256px;
+
+}
+
+
+.logo-name {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.pagelinks {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 32px;
+    align-items: center;
+    font-size: 18px;
+
+}
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #808080;
+}
+
+.hero {
+    background-color: #1F2937;
+}
+
+.hero-content {
+    display:flex;
+    justify-content: space-evenly;
+    color: #F9FAF8;
+    padding: 32px 128px;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 0px 128px;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0px;
+    #F9FAF8;
+}
+
+
+.hero-img {
+    display: flex;
+    justify-content: center;
+    padding: 0px 126px;
+}
+
+.signup {
+    width: 128px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    font-size: 16px;
+    font-weight: bold;
+    color: #e5e7eb;
+    align-self: flex-start;
+}
+
+
+.information-header {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.info-me {
+    display: flex;
+    justify-content: center;
+}
+
+.info-me-1, .info-me-2 .info-me-3, .info-me-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
