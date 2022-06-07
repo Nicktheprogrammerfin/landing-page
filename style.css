@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: #000a14;
-    color: #ADADAD;
+    color: #ffffff;
     margin: 0px;
     padding: 8px 256px 16px 256px;
 
@@ -34,12 +34,12 @@ body {
 }
 
 a {
-    color: #ADADAD;
+    color: #ffffff;
     text-decoration: none;
 }
 
 a:hover {
-    color: #83677B;
+    color: orangered;
 }
 
 .hero {
@@ -49,8 +49,15 @@ a:hover {
 .hero-content {
     display:flex;
     justify-content: space-evenly;
-    color: #d3d3d3;
+    color: #ffffff;
     padding: 32px 128px;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0px;
+    color: #ffffff
 }
 
 .hero-left {
@@ -58,18 +65,10 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    font-size: 18px;
-    color: #ADADAD;
+    font-size: 16px;
+    color: #ffffff;
     padding: 0px 128px;
 }
-
-.hero-title {
-    font-size: 48px;
-    font-weight: bolder;
-    margin: 0px;
-    color: #ADADAD;
-}
-
 
 .hero-img {
     display: flex;
@@ -84,7 +83,7 @@ a:hover {
     background-color: #222a33;
     font-size: 16px;
     font-weight: bold;
-    color: #ADADAD;
+    color: #ffffff;
     align-self: flex-start;
 }
 
@@ -98,15 +97,15 @@ a:hover {
     margin: 0px;
     padding-top: 64px;
     padding-bottom: 64px;
-    background: #ADADAD;
+    background: #ffffff;
 }
 
 .info-me {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 32px;
-    background: #ADADAD;
+    gap: 64px;
+    background: #ffffff;
 }
 
 
@@ -117,14 +116,101 @@ a:hover {
     justify-content: flex-start;
     align-items: flex-start;
     flex-wrap: wrap;
-    width: 150px;
+    width: 200px;
     height: 500px;
     text-align: center;
     color: #000a14;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 100;
 }
 
 img {
     border-radius: 26px;
     border: 4px solid #000a14;
+}
+
+.quote-section {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 128px;
+    font-size: 36px;
+    color: #1F2937;
+    background-color: #d4d4d4;
+}
+
+#quote {
+    font-family: 'roboto light';
+    font-weight: lighter;
+    font-style: italic;
+}
+
+#john-marston {
+    align-self: flex-end;
+    font-style: normal;
+}
+
+.banner-top, .sign-up-message {
+    padding: 0px;
+    margin: 0px;
+}
+
+.banner-top {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.sign-up-message {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.call-to-action {
+    display:flex;
+    margin: 128px;
+    padding: 0px 128px;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    display: flex;
+    background-color: #000a14;
+    padding: 32px 128px;
+    border-radius: 16px;
+    color: #ffffff;
+    height: 100px;
+    flex: auto;
+}
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: auto;
+}
+
+.sign-up-2 {
+    align-self: center;
+    justify-content: center;
+    width: 128px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #000a14;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #000a14;
+    color: #FFFFFF;
+    height: auto;
+    margin: 0px;
+    padding: 32px;
+    font-size: 18px;
+    font-weight: lighter;
 }
